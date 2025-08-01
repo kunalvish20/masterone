@@ -151,6 +151,9 @@ function MobileNav() {
               About Us
             </Link>
 
+
+
+
             {/* Auth Button for Mobile */}
             <div className="pt-4 w-full">
               <Link href="/auth/sign-up" className="block" onClick={() => setIsOpen(false)}>
@@ -214,6 +217,10 @@ export function Navigation() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
+
+
+
+
         <NavigationMenuItem>
           <Link href="/about" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
@@ -221,6 +228,20 @@ export function Navigation() {
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
+
+
+
+
+
+<NavigationMenuItem>
+  <Link href="/notion" legacyBehavior passHref>
+    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+      Notion
+    </NavigationMenuLink>
+  </Link>
+</NavigationMenuItem>
+
+
       </NavigationMenuList>
     </NavigationMenu>
   );
