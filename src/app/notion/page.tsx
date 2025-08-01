@@ -1,5 +1,6 @@
-// app/notion/page.tsx
-import NotionPreview from "@/components/notionpreview/NotionPreview";
+'use client';
+
+import NotionPreview from "@/components/notionpreview/notionpreview";
 
 export default function NotionPage() {
   return (

@@ -7,7 +7,7 @@ interface Block {
   content: string;
 }
 
-const NotionPreview = () => {
+const notionpreview = () => {
   const [blocks, setBlocks] = useState<Block[]>(() => {
     const saved = localStorage.getItem("notionBlocks");
     return saved ? JSON.parse(saved) : [{ id: Date.now(), content: "" }];
@@ -66,4 +66,4 @@ const NotionPreview = () => {
   );
 };
 
-export default NotionPreview;
+export default notionpreview;
