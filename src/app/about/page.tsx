@@ -15,7 +15,7 @@ export default function AboutPage() {
             The all-in-one productivity platform designed to help founders and professionals achieve more with less effort.
           </p>
         </div>
-        
+
         {/* Mission Section */}
         <section className="mb-16">
           <div className="flex flex-col md:flex-row gap-8 items-center">
@@ -32,10 +32,10 @@ export default function AboutPage() {
               <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
               <div className="space-y-4">
                 <p className="text-lg">
-                  At MasterOne, we're redefining productivity for modern professionals. Our platform combines powerful tools with intuitive design to help you focus on what truly matters.
+                  At MasterOne, we&apos;re redefining productivity for modern professionals. Our platform combines powerful tools with intuitive design to help you focus on what truly matters.
                 </p>
                 <p className="text-lg">
-                  Whether you're building a startup, managing projects, or organizing your workflow, MasterOne provides the integrated solutions you need to work smarter, not harder.
+                  Whether you&apos;re building a startup, managing projects, or organizing your workflow, MasterOne provides the integrated solutions you need to work smarter, not harder.
                 </p>
               </div>
             </div>
@@ -97,7 +97,7 @@ export default function AboutPage() {
         <section className="mb-16">
           <h2 className="text-2xl font-semibold mb-6 text-center">The MasterOne Team</h2>
           <p className="text-lg text-center mb-8 max-w-2xl mx-auto">
-            We're a passionate group of entrepreneurs, designers, and engineers who've experienced the productivity challenges firsthand and built the solution we wish we had.
+            We&apos;re a passionate group of entrepreneurs, designers, and engineers who&apos;ve experienced the productivity challenges firsthand and built the solution we wish we had.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
@@ -129,7 +129,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <p className="text-lg mb-4">
-                MasterOne was born out of frustration with juggling multiple productivity tools that didn't talk to each other. As founders ourselves, we wasted countless hours switching between apps and recreating information.
+                MasterOne was born out of frustration with juggling multiple productivity tools that didn&apos;t talk to each other. As founders ourselves, we wasted countless hours switching between apps and recreating information.
               </p>
               <p className="text-lg">
                 We set out to build a unified platform that combines all the essential tools founders need, with smart automation to eliminate busywork. The result is MasterOne - the productivity command center we always wanted.

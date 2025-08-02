@@ -18,7 +18,7 @@ const NotionPreview = () => {
                 <polyline points="10 9 9 9 8 9"></polyline>
               </svg>
             </div>
-            <h1 className="text-3xl font-bold text-gray-800">Founder's Productivity Hub</h1>
+            <h1 className="text-3xl font-bold text-gray-800">Entrepreneur Productivity Hub</h1>
           </div>
           <button className="bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition-colors flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
