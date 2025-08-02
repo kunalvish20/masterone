@@ -290,7 +290,7 @@ export default function Header() {
               priority 
             />
             <h1 className="text-base font-semibold md:text-lg whitespace-nowrap">
-              Foundr<span className="text-blue-800">Guide.</span>
+              Master<span className="text-blue-800">One.</span>
             </h1>
           </Link>
           
