@@ -31,7 +31,7 @@ export function Footer() {
               <li className="text-gray-300 hover:underline">Book Summaries</li>
               <li className="text-gray-300 hover:underline">Startup Tips</li>
               <li className="text-gray-300 hover:underline">
-                Founder&apos;s Guide
+                Master&apos;s one
               </li>
               <li className="text-gray-300 hover:underline">Success Stories</li>
               <li className="text-gray-300 hover:underline">Contact Us</li>
