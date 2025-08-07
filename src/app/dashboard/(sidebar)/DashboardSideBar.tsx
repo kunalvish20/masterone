@@ -130,8 +130,8 @@ export default function Sidebar() {
       {/* Fixed Header */}
       <div className="flex-shrink-0 p-4 border-b border-gray-200">
         <Link href="/dashboard/for-you" className="flex items-center space-x-2">
-          <Image src={Logo} alt='FoundrGuide' width={100} height={100} className='w-6 h-6' />
-          <p className="text-xl font-semibold">Foundr<span className='text-blue-600'>Guide</span></p>
+          <Image src={Logo} alt='Masterone' width={100} height={100} className='w-6 h-6' />
+          <p className="text-xl font-semibold">Master<span className='text-blue-600'>One</span></p>
         </Link>
       </div>
 

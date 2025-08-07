@@ -18,7 +18,7 @@ export default function Insight(){
             <span className="text-blue-600 mt-3">Summaries</span>
           </h1>
           <p className="font-normal text-gray-700 text-md">
-            At FoundrGuide, we empower founders with personalized book summaries and actionable insights. Ask your business questions, and our AI platform delivers the resources you need to succeed.
+            At MasterOne, we empower founders with personalized book summaries and actionable insights. Ask your business questions, and our AI platform delivers the resources you need to succeed.
           </p>
           <ul className="space-y-4 text-left font-medium">
             <div className="space-y-3">

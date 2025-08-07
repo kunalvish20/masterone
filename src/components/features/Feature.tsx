@@ -43,7 +43,7 @@ export default function Feature() {
             <span className="bg-blue-100 px-3 py-1 items-center text-blue-800 rounded-2xl">Features</span></h2>
           <p className="text-base max-w-2xl mx-auto mt-8">
             Get personalized mentorship with AI-driven insights and expert strategies.
-            FoundrGuide helps you overcome challenges and scale your business with ease.
+            MasterOne helps you overcome challenges and scale your business with ease.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

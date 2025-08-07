@@ -290,7 +290,7 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
               <CardHeader className="p-6">
                 <div className="flex items-center gap-2 mb-4">
                   <Sparkles className="h-5 w-5 text-blue-600" />
-                  <h2 className="text-lg font-semibold">I&apos;m FoundrGuide AI – your startup companion</h2>
+                  <h2 className="text-lg font-semibold">I&apos;m MasterOne AI – your startup companion</h2>
                 </div>
                 
                 <p className="text-gray-600 mb-6">

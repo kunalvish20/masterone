@@ -20,13 +20,14 @@ export function Footer() {
           {/* Logo Section */}
           <div className="lg:col-span-1">
             <Link href="/">
-              <Image src={Logo} alt="FoundrGuide" className="w-9 h-9" />
+              <Image src={Logo} alt="MasterOne" className="w-9 h-9" />
             </Link>
           </div>
 
           {/* Resources Section */}
           <div className="space-y-3">
             <h2 className="font-semibold text-base">Resources</h2>
+            
             <ul className="flex flex-col space-y-2 text-sm">
               <li className="text-gray-300 hover:underline">Book Summaries</li>
               <li className="text-gray-300 hover:underline">Startup Tips</li>
@@ -93,7 +94,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-700">
           <div className="flex flex-col md:flex-row justify-around items-center space-y-4 md:space-y-0">
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4 text-sm text-gray-300">
-              <p>© 2024 FoundrGuide. All rights reserved.</p>
+              <p>© 2025 MasterOne. All rights reserved.</p>
               <ul className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
                 <li className="hover:underline">Privacy Policy</li>
                 <li className="hover:underline">Terms of Service</li>
