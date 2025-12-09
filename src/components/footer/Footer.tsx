@@ -1,8 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import React from "react";
-import Logo from "../../app/favicon.ico";
+
 import Link from "next/link";
 import {
   InstagramLogoIcon,
