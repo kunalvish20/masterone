@@ -1,4 +1,5 @@
 import { createUploadthing, type FileRouter } from "uploadthing/next";
+import { logger } from "@/lib/logger";
  
 const f = createUploadthing()
 
@@ -8,7 +9,7 @@ export const ourFileRouter = {
       return {}; // Add auth logic here if needed
     })
     .onUploadComplete(async ({ file }) => {
-      console.log("Upload complete:", file.url);
+      logger.info("Upload complete:", file.url);
       return { url: file.url }
     })
 } satisfies FileRouter

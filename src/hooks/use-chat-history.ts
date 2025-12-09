@@ -1,5 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
-import { baseUrl } from '@/base_url';
+import { apiClient } from '@/lib/api-client';
+import { POLLING_INTERVALS } from '@/lib/constants';
+import { logger } from '@/lib/logger';
 import { useUser } from '@clerk/nextjs';
 
 interface Chat {
@@ -17,14 +19,15 @@ export function useChatHistory() {
     if (!user) return;
     
     try {
-      const response = await fetch(`${baseUrl}/api/v1/chat/user/${user.id}`);
-      const data = await response.json();
+      const data = await apiClient.get<{ success: boolean; data: Chat[] }>(
+        `/api/v1/chat/user/${user.id}`
+      );
       
       if (data.success) {
         setChats(data.data);
       }
     } catch (error) {
-      console.error('Error fetching chats:', error);
+      logger.error('Error fetching chats:', error);
     } finally {
       setIsLoading(false);
     }
@@ -35,11 +38,11 @@ export function useChatHistory() {
     fetchChats();
   }, [fetchChats]);
 
-  // Set up polling for updates
+  // Set up polling for updates with improved interval
   useEffect(() => {
-    const interval = setInterval(fetchChats, 2000); // Poll every 2 seconds
+    const interval = setInterval(fetchChats, POLLING_INTERVALS.CHAT_HISTORY);
     return () => clearInterval(interval);
   }, [fetchChats]);
 
   return { chats, isLoading, refetch: fetchChats };
-} 
+}
