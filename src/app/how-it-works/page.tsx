@@ -1,4 +1,3 @@
-import Header from "@/components/header/Header"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { UserPlus, MessageSquare, BookOpen, LineChart, MessageCircle, CheckCircle } from "lucide-react"
@@ -49,8 +48,6 @@ export default function HowItWorks() {
   ]
 
   return (
-    <>
-      <Header />
     <div className="container mx-auto px-4 py-12">
       <div className="mb-4"></div>
       <h1 className="text-4xl font-bold text-center mb-8">How It Works</h1>
@@ -94,6 +91,5 @@ export default function HowItWorks() {
         </Link>
       </div>
     </div>
-    </>
   )
 }

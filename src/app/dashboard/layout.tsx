@@ -17,11 +17,12 @@ export default function DashboardLayout({
 }>) {
   return (
     <SignedIn>
-      <div className="min-h-screen bg-gray-50">
+      {/* Hide header and footer for dashboard by using fixed positioning */}
+      <div className="fixed inset-0 bg-gray-50 z-50">
         <Suspense fallback={<Spinner />}>
           <DashboardSideBar />
         </Suspense>
-        <main className="md:ml-64">
+        <main className="md:ml-64 h-full overflow-auto">
           <Suspense fallback={<Spinner />}>
             {children}
           </Suspense>

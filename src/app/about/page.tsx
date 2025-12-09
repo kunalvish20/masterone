@@ -1,4 +1,3 @@
-import Header from "@/components/header/Header"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
@@ -6,9 +5,7 @@ import Link from "next/link"
 
 export default function AboutPage() {
   return (
-    <>
-      <Header />
-      <div className="container mx-auto px-4 py-8 mt-4 max-w-4xl">
+    <div className="container mx-auto px-4 py-8 mt-4 max-w-4xl">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">About <span className="text-blue-600">MasterOne</span></h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -184,6 +181,5 @@ export default function AboutPage() {
           </div>
         </section>
       </div>
-    </>
   )
 }

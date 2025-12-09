@@ -44,7 +44,7 @@ const components: { title: string; href: string; description: string }[] = [
     title: "FAQs / Knowledge Base",
     href: "/resources/faqs",
     description:
-      "Get answers to common startup questions and practical tips on using FoundrGuide.",
+      "Get answers to common startup questions and practical tips on using Masterone.",
   },
   {
     title: "Podcasts & Videos",
@@ -82,9 +82,9 @@ function MobileNav() {
       >
         <nav className="flex flex-col items-center text-center h-full pt-8">
           <Link href="/" className="flex items-center gap-2 mb-8" onClick={() => setIsOpen(false)}>
-            <Image src={Logo} alt="FoundrGuide" className="h-6 w-6" />
+            <Image src={Logo} alt="Masterone" className="h-6 w-6" />
             <span className="text-base font-semibold">
-              Foundr<span className="text-blue-800">Guide.</span>
+              Master<span className="text-blue-800">One</span>
             </span>
           </Link>
 
@@ -283,12 +283,12 @@ export default function Header() {
         <div className="flex h-16 py-4 items-center justify-between px-4 lg:justify-around lg:px-10 lg:gap-10">
           {/* Logo Section */}
           <Link href="/" className="flex items-center gap-2 shrink-0">
-            <Image 
+            {/* <Image 
               src={Logo} 
-              alt="FoundrGuide" 
+              alt="Masterone" 
               className="h-7 w-7 md:h-8 md:w-8" 
               priority 
-            />
+            /> */}
             <h1 className="text-base font-semibold md:text-lg whitespace-nowrap">
               Master<span className="text-blue-800">One.</span>
             </h1>

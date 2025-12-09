@@ -6,6 +6,7 @@ const nextConfig = {
       'images.unsplash.com', // For book covers
       'i.ytimg.com',        // For YouTube thumbnails
       'images.pexels.com',  // For Pexels images
+      'i.pravatar.cc',      // For avatar placeholders
       // Add any other domains you need
     ],
   },
